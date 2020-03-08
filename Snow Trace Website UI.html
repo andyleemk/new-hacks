@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>    
+<style>
+
+h1.title {
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #143642;
+    text-align: center;
+    padding-top: 17.5%;
+    padding-bottom: 4.5%;
+}
+
+.button-text {
+    text-align: center;
+}
+
+body {
+
+    background-image: url("NewHacks_Background.png");
+    margin: 0 px;
+}
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    border: solid 5px #143642;
+    opacity: 80%;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #143642;
+    opacity: 100%;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #143642;
+    opacity: 80%;
+}
+
+.btn-white {
+    background-color: #A7D4D5;
+    color: #143642;
+    letter-spacing: 3px;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #A7D4D5;
+}
+
+</style>
+</head>
+
+<body>
+<h1 class="title"><b>How Would You Like to Be Notified?</b></h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 button-text">
+            <div class="text-box">
+                <a href="#" class="btn btn-white btn-animate"><b>Twitter</b></a>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="text-box">
+                <a href="#" class="btn btn-white btn-animate"><b>&nbsp;&nbsp;SMS&nbsp;&nbsp;</b></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html> 
