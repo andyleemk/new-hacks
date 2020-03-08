@@ -1,0 +1,30 @@
+var file = msg.payload;
+var message = msg.arduino;
+var array = message.split(,);
+var humid;
+var temp;
+var force;
+var snow=0;
+var type = dry;
+
+temp = array[0];
+humid = array[1];
+force = array[2];
+
+if(temp 25){
+    snow= snow + 1;
+}
+if(humid  35){
+    type = wet;
+}
+if(force650){
+    snow = snow + 1;
+}
+if (file  12000)
+{
+    snow = snow + 1;
+}
+if(snow == 3){
+    msg.payload = Significant  + type +  snowfall;
+    return msg;
+}
