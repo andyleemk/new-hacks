@@ -1,4 +1,4 @@
-# Snow Trace Measuremnt Tool
+# Snow Trace Measurement Tool
 
 
 ## Idea
@@ -15,7 +15,7 @@ We wanted to create a tool that notifies city workers and snow maintenance crews
 ## Challenges:
 * Communication between Arduino and program 
 * Setting up camera for OpenCV
-* Using Node Red to bring together all elements 
+* Using Node Red to bring together hardware, API's, & online services. 
 
 ## Next Steps:
 * Use more API's to send notifications on different platforms to users
